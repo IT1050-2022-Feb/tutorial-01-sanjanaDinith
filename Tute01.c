@@ -8,7 +8,7 @@ int main() {
   int mark, i, sum = 0;
   float avg;
   for(i=0; i<2; i++){
-   printf("Enter mark %d :",i);
+   printf("Enter mark %d :",i+1);
    scanf("%d", &mark);
    sum = sum + mark;
   }

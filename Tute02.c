@@ -24,10 +24,10 @@ int main() {
   printf("Enter the distance : ");
   scanf("%d",&distance);
   if(distance <= 30){
-    printf("%.2f",distance * 50); 
+    printf("%.2f",distance * 50.0); 
   }
   else{
-  printf("%.2f", (30 * 50) + ((distance - 30) * 40 ); 
+  printf("%.2f", (30 * 50.0) + ((distance - 30) * 40.0 )); 
   }
          
     
